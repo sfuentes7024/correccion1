@@ -17,7 +17,7 @@ export default class Product {
             } else {
                 const lastProduct = products.slice(-1)[0];
                 let lastProductId = lastProduct.id;
-                nextId = lastProduct + 1;
+                nextId = lastProductId + 1;
             }
 
             product['id'] = nextId;
